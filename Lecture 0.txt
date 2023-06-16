@@ -88,10 +88,14 @@ Course Topics: We’ll go into more detail later, but here’s a brief overview 
 
 ==================================================================================================================================================================
 
-Document Object Model (DOM)
+* Document Object Model (DOM)
+-----------------------------
 DOM
 
 The DOM is a convenient way of visualizing the way HTML elements relate to each other using a tree-like structure. Above is an example of the DOM layout for the page we just wrote.
+
+==================================================================================================================================================================
+
 More HTML Elements
 There are many HTML elements you may want to use to customize your page, including headings, lists, and bolded sections. In this next example, we’ll see a few of of these in action.
 One more thing to note: <!-- --> gives us a comment in HTML, so we’ll use that below to explain some of the elements.
