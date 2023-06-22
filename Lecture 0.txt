@@ -93,12 +93,25 @@ Course Topics: We’ll go into more detail later, but here’s a brief overview 
 DOM
 
 The DOM is a convenient way of visualizing the way HTML elements relate to each other using a tree-like structure. Above is an example of the DOM layout for the page we just wrote.
+					 
+					 html
+				    ______|_____					  
+				   /		\				
+				  |              |
+				head           body
+				  |              |
+			        title       Hello, world!
+				  |
+				hello!
 
 ==================================================================================================================================================================
 
-More HTML Elements
-There are many HTML elements you may want to use to customize your page, including headings, lists, and bolded sections. In this next example, we’ll see a few of of these in action.
-One more thing to note: <!-- --> gives us a comment in HTML, so we’ll use that below to explain some of the elements.
+* More HTML Elements 
+--------------------
+ - There are many HTML elements you may want to use to customize your page, including headings, lists, and bolded sections. In this next example, we’ll see a few of of these in action.
+
+ - One more thing to note: <!-- --> gives us a comment in HTML, so we’ll use that below to explain some of the elements.
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -160,11 +173,14 @@ One more thing to note: <!-- --> gives us a comment in HTML, so we’ll use that
         </table>
     </body>
 <html>
-This page, when rendered, looks something like this:
 
-Elements
+	This page, when rendered, looks something like this:
 
-In case you’re worried about it, know that you’ll never have to memorize these elements. It’s very easy to simply search something like “image in HTML” to find the img tag. One resource that’s especially helpful for learning about these elements is W3 Schools.
+	- In case you’re worried about it, know that you’ll never have to memorize these elements. It’s very easy to simply search something like “image in HTML” to find the img tag. One 
+	resource that’s especially helpful for learning about these elements is W3 Schools.
+
+=================================================================================================================================================================
+
 Forms
 Another set of elements that is really important when creating a website is how to collect information from users. You can allow users to enter information using an HTML form, which can contain several different types of input. Later in the course, we’ll learn about how to handle information once a form has been submitted.
 Just as with other HTML elements, there’s no need to memorize these, and W3 Schools is a great resource for learning about them!
@@ -189,6 +205,9 @@ Just as with other HTML elements, there’s no need to memorize these, and W3 Sc
     </form>
 </body>
 </html>
+
+
+
 form
 
 CSS (Cascading Style Sheets)
