@@ -483,13 +483,23 @@ buttons
 
 ==================================================================================================================================================================
 
-Responsive Design
-Today, many people view websites on devices other than computers, such as smartphones and tablets. It’s important to make sure your website is readable to people on all devices.
-One way we can achieve this is through knowledge of the viewport. The viewport is the part of the screen that is actually visible to the user at any given time. By default, many webpages assume that the viewport is the same on any device, which is what leads to many sites (especially older ones) being difficult to interact with on mobile devices.
-One simple way to improve the appearance of a site on a mobile device is to add the following line in the head of our HTML files. This line tells the mobile device to use a viewport that is the same width as that of the device you’re using rather than a much larger one.
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-Another way we can deal with different devices is through media queries. Media queries are ways of changing the style of a page based on how the page is being viewed.
-For an example of a media query, let’s try to simply change the color of the screen when it shrinks down to a certain size. We signal a media query by typing @media followed by the type of query in parentheses:
+* Responsive Design
+-------------------
+	. Today, many people view websites on devices other than computers, such as smartphones and tablets. It’s important to make sure your website is readable to people on all devices.
+
+	. One way we can achieve this is through knowledge of the viewport. The viewport is the part of the screen that is actually visible to the user at any given time. By default, many 
+	webpages assume that the viewport is the same on any device, which is what leads to many sites (especially older ones) being difficult to interact with on mobile devices.
+
+	. One simple way to improve the appearance of a site on a mobile device is to add the following line in the head of our HTML files. This line tells the mobile device to use a 
+	viewport that is the same width as that of the device you’re using rather than a much larger one.
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	. Another way we can deal with different devices is through media queries. Media queries are ways of changing the style of a page based on how the page is being viewed.
+
+	. For an example of a media query, let’s try to simply change the color of the screen when it shrinks down to a certain size. We signal a media query by typing @media followed by 
+	the type of query in parentheses:
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -512,9 +522,12 @@ For an example of a media query, let’s try to simply change the color of the s
         <h1>Welcome to the page!</h1>
     </body>
 </html>
-screen size
 
-Another way to deal with differing screen size is using a new CSS attribute known as a flexbox. This allows us to easily have elements wrap around to the next line if they don’t fit horizontally. We do this by putting all of our elements in a div that we’ll call our container. We then add some styling to that div specifying that we want to use a flexbox display for the elements inside of it. We’ve also added some additional styling to the inner divs to better illustrate the wrapping that’s occuring here.
+
+	. Another way to deal with differing screen size is using a new CSS attribute known as a flexbox. This allows us to easily have elements wrap around to the next line if they don’t 
+	fit horizontally. We do this by putting all of our elements in a div that we’ll call our container. We then add some styling to that div specifying that we want to use a flexbox 
+	display for the elements inside of it. We’ve also added some additional styling to the inner divs to better illustrate the wrapping that’s occuring here.
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -551,9 +564,11 @@ Another way to deal with differing screen size is using a new CSS attribute know
         </div>
     </body>
 </html>
-flexbox
 
-Another popular way of styling a page is using an HTML grid. In this grid, we can specify style attributes such as column widths and gaps between columns and rows, as demonstrated below. Note that when we specify column widths, we say the third one is auto, meaning it should fill the rest of the page.
+
+	. Another popular way of styling a page is using an HTML grid. In this grid, we can specify style attributes such as column widths and gaps between columns and rows, as 
+	demonstrated below. Note that when we specify column widths, we say the third one is auto, meaning it should fill the rest of the page.
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -595,6 +610,8 @@ Another popular way of styling a page is using an HTML grid. In this grid, we ca
     </body>
 </html>
 grid
+
+==================================================================================================================================================================
 
 Bootstrap
 It turns out that there are many libraries that other people have already written that can make the styling of a webpage even simpler. One popular library that we’ll use throughout the course is known as bootstrap.
